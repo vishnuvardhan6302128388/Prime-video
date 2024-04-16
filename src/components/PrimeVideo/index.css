@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+}
+.movie-container {
+  background-color: #000000;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  background-size: cover;
+}
+.action {
+  font-size: 40px;
+  color: white;
+  font-family: roboto;
+  padding: 10px;
+  padding-left: 10px;
+}
+.comedy {
+  font-size: 40px;
+  color: white;
+  padding: 10px;
+  font-family: Roboto;
+  padding-left: 10px;
+}
+@media screen and (max-width: 992px) {
+  .action {
+    font-size: 20px;
+    color: white;
+    font-family: roboto;
+    padding: 3px;
+    padding-left: 3px;
+  }
+  .comedy {
+    font-size: 20px;
+    color: white;
+    padding: 3px;
+    font-family: Roboto;
+    padding-left: 3px;
+  }
+  .movie-container {
+    background-color: #000000;
+    padding-left: 0px;
+  }
+}
